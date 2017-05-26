@@ -56,7 +56,7 @@ Trader.prototype.getTrades = function(since, callback, descending) {
         date: date,
         price: parseFloat(trade.rate),
         amount: parseFloat(trade.amount),
-        tid: trade.trade_id
+        tid: String(trade.trade_id)
       });
     }, this);
 
