@@ -607,7 +607,8 @@ var exchanges = [
     ],
     requires: ['key', 'secret'],
     tradeError: 'NOT IMPLEMENTED YET',
-    providesHistory: false
+    providesHistory: false,
+    tid: 'tid'
   },
   {
     name: 'BTC Markets',
